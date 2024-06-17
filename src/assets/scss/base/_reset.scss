@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+}
