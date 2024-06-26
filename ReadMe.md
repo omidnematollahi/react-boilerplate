@@ -1,6 +1,17 @@
 # React Boilerplate
 
-This is a vite Boilerplate for using in react projects
+This is a vite Boilerplate to speed up starting with react and vite and typescript + some requirement
+
+## Features
+
+- configurable design system with material 3 rules
+- using 7-1 css architecture
+- some reusable custom hooks
+- i18n configuration
+- event bus
+- general components
+- dynamic layouts
+- feature sliced design architecture
 
 ## Installation
 
