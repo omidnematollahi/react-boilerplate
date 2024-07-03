@@ -5,18 +5,7 @@ import {
   devtools,
   persist,
 } from 'zustand/middleware';
-
-type Token = string;
-
-type State = {
-  token: Token | null;
-};
-
-type Actions = {
-  updateToken: (token: Token | null) => void;
-};
-
-type SessionState = State & Actions;
+import { SessionState, Token } from '~app/types/session/session.type';
 
 const createSessionSlice: StateCreator<
   SessionState,

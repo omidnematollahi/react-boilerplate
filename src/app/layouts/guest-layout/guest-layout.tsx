@@ -8,10 +8,6 @@ export function GuestLayout() {
     <>
       <nav className="navbar navbar-light">
         <div className="container">
-          <NavLink className="navbar-brand" to={pathKeys.home()}>
-            conduit
-          </NavLink>
-
           <ul className="nav navbar-nav pull-xs-right">
             <li className="nav-item">
               <NavLink className="nav-link" to={pathKeys.home()}>

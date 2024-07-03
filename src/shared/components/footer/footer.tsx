@@ -6,15 +6,8 @@ export function Footer() {
     <footer>
       <div className="container">
         <NavLink className="logo-font" to={pathKeys.home()}>
-          conduit
+          Home
         </NavLink>
-        <span className="attribution">
-          An interactive learning project from{' '}
-          <a href="https://thinkster.io" target="_blank" rel="noreferrer">
-            Thinkster
-          </a>
-          . Code &amp; design licensed under MIT.
-        </span>
       </div>
     </footer>
   );
